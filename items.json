@@ -1,0 +1,17 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Bubble Gum",
+            "price": 99,
+            "imgName": "gum.png"
+        },
+
+        {
+            "id": 2,
+            "name": "Cat",
+            "price": 100000000,
+            "imgName": "cat.png"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "logs": [
+        {
+            "id": 1,
+            "type": "Commit",
+            "topic": "Initial Commit",
+            "details": "Initial Commit to Git. Basic website with basic navigation, webstore, logging, etc.",
+            "date": "5/23/2020"
+        },
+
+        {
+            "id": 2,
+            "type": "Update",
+            "topic": "Updated Server",
+            "details": "server.js version 4.1.12 updated to 4.1.13",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 3,
+            "type": "Patch",
+            "topic": "Security Flaw Patched",
+            "details": "HTML/Javascript security flaw 012-232-4a patched. URL www.securtyflawpatch.com",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 4,
+            "type": "Note",
+            "topic": "Note",
+            "details": "This is a note.",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 1,
+            "type": "Commit",
+            "topic": "Initial Commit",
+            "details": "Initial Commit to Git. Basic website with basic navigation, webstore, logging, etc.",
+            "date": "5/23/2020"
+        },
+
+        {
+            "id": 2,
+            "type": "Update",
+            "topic": "Updated Server",
+            "details": "server.js version 4.1.12 updated to 4.1.13",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 3,
+            "type": "Patch",
+            "topic": "Security Flaw Patched",
+            "details": "HTML/Javascript security flaw 012-232-4a patched. URL www.securtyflawpatch.com",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 4,
+            "type": "Note",
+            "topic": "Note",
+            "details": "This is a note.",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 1,
+            "type": "Commit",
+            "topic": "Initial Commit",
+            "details": "Initial Commit to Git. Basic website with basic navigation, webstore, logging, etc.",
+            "date": "5/23/2020"
+        },
+
+        {
+            "id": 2,
+            "type": "Update",
+            "topic": "Updated Server",
+            "details": "server.js version 4.1.12 updated to 4.1.13",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 3,
+            "type": "Patch",
+            "topic": "Security Flaw Patched",
+            "details": "HTML/Javascript security flaw 012-232-4a patched. URL www.securtyflawpatch.com",
+            "date": "5/24/2020"
+        },
+
+        {
+            "id": 4,
+            "type": "Note",
+            "topic": "Note",
+            "details": "This is a note.",
+            "date": "5/24/2020"
+        }
+    ]
+}
