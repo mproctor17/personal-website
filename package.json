@@ -1,19 +1,36 @@
 {
   "name": "shopping-cart-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000p\u0000e\u0000r\u0000s\u0000o\u0000n\u0000a\u0000l\u0000-\u0000w\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "author": "",
+  "author": "mproctor17",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.2.1",
     "stripe": "^8.55.0"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
-  }
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mproctor17/personal-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mproctor17/personal-website/issues"
+  },
+  "homepage": "https://github.com/mproctor17/personal-website#readme"
 }

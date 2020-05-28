@@ -1,99 +1,53 @@
 {
     "logs": [
         {
-            "id": 1,
-            "type": "Commit",
-            "topic": "Initial Commit",
-            "details": "Initial Commit to Git. Basic website with basic navigation, webstore, logging, etc.",
-            "date": "5/23/2020"
-        },
-
-        {
-            "id": 2,
             "type": "Update",
-            "topic": "Updated Server",
-            "details": "server.js version 4.1.12 updated to 4.1.13",
-            "date": "5/24/2020"
+            "title": "Minor Fixes / Visual Improvements / User Login Implementation",
+            "details": [
+                {
+                    "p": "Added Resume to home page including links to github repository and linkedin account. Fixed issues with logs displaying on log page. Refined store page to view objects in cart properly. Begun work on user logins starting with Postgresql database API. Added to .env file for db login and created dbConfig.js to connect."
+                }
+            ],
+            "date": "5/26/2020"
         },
 
         {
-            "id": 3,
             "type": "Patch",
-            "topic": "Security Flaw Patched",
-            "details": "HTML/Javascript security flaw 012-232-4a patched. URL www.securtyflawpatch.com",
-            "date": "5/24/2020"
+            "title": "HTML/JS/Stripe Security Patches",
+            "details": [
+                {
+                    "p": "Patch 1: Issue: Changing html on public website front end would reduce actual item price. Solution: Changed javascript to access pricing data from secure, non-public JSON file so users cannot change html on webpage to fake price."
+                },
+                {
+                    "p": "Patch 2: Issue: Needed a way to charge buyers through online credit transactions without leaking sensitive credit card information. Solution: Implemented Stripe Security features with encrypted public and private keys to follow PCI compliance."
+                },
+                {                        
+                    "p": "Patch 3: Issue: All website backend data (Including Stripe private key) was exposed and available to the public through inspecting or github repository. Solution: Implemented .gitignore file with .env listing to hide private backend information."
+                }
+            ],
+            "date": "5/25/2020"
         },
 
         {
-            "id": 4,
-            "type": "Note",
-            "topic": "Note",
-            "details": "This is a note.",
-            "date": "5/24/2020"
-        },
-
-        {
-            "id": 1,
-            "type": "Commit",
-            "topic": "Initial Commit",
-            "details": "Initial Commit to Git. Basic website with basic navigation, webstore, logging, etc.",
-            "date": "5/23/2020"
-        },
-
-        {
-            "id": 2,
             "type": "Update",
-            "topic": "Updated Server",
-            "details": "server.js version 4.1.12 updated to 4.1.13",
-            "date": "5/24/2020"
+            "title": "Finished Webstore Stripe API Connection",
+            "details": [
+                {
+                    "p": "Implemented Stripe API within the webstore. Implemented Stripe demo secret key and public key to send information to stripe for payment. Payment goes through to Stripe successfully using dummy information."
+                }
+            ],
+            "date": "5/25/2020"
         },
 
         {
-            "id": 3,
-            "type": "Patch",
-            "topic": "Security Flaw Patched",
-            "details": "HTML/Javascript security flaw 012-232-4a patched. URL www.securtyflawpatch.com",
-            "date": "5/24/2020"
-        },
-
-        {
-            "id": 4,
-            "type": "Note",
-            "topic": "Note",
-            "details": "This is a note.",
-            "date": "5/24/2020"
-        },
-
-        {
-            "id": 1,
             "type": "Commit",
-            "topic": "Initial Commit",
-            "details": "Initial Commit to Git. Basic website with basic navigation, webstore, logging, etc.",
-            "date": "5/23/2020"
-        },
-
-        {
-            "id": 2,
-            "type": "Update",
-            "topic": "Updated Server",
-            "details": "server.js version 4.1.12 updated to 4.1.13",
-            "date": "5/24/2020"
-        },
-
-        {
-            "id": 3,
-            "type": "Patch",
-            "topic": "Security Flaw Patched",
-            "details": "HTML/Javascript security flaw 012-232-4a patched. URL www.securtyflawpatch.com",
-            "date": "5/24/2020"
-        },
-
-        {
-            "id": 4,
-            "type": "Note",
-            "topic": "Note",
-            "details": "This is a note.",
-            "date": "5/24/2020"
+            "title": "Initial Commit",
+            "details": [
+                {
+                    "p": "Initial Commit to Git. Commit contains 3 webpages: home page, store page, and log page. Store can display items stored in JSON file and add them to cart, however purchasing is not available. Log page allows log entries to be added to the page from a JSON file."
+                }
+            ],
+            "date": "5/25/2020"
         }
     ]
 }
